@@ -151,7 +151,8 @@ const signIn = async (req, res) => {
                 expires: expiryDate,
                 secure: true,
                 sameSite: 'none',
-                path: '/'
+                path: '/',
+                domain: '.todoodle.site'
             })
             .status(200)
             .json({
