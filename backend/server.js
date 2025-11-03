@@ -13,10 +13,11 @@ import passport from "./config/passport.js"
 import { startCronJobs, stopCronJobs } from "./services/cronJobs.js"
 
 const app = express()
+app.set("trust proxy", 1)
 
 app.use(cors({ 
     credentials: true, 
-    origin: [process.env.CLIENT_URL], 
+    origin: process.env.CLIENT_URL, 
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE" 
 }))
 app.use(express.json())
