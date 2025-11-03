@@ -11,7 +11,9 @@ const handleResponse = async (response: Response) => {
 
 // Helper function to get auth headers
 const getAuthHeaders = () => ({
-  'Content-Type': 'application/json',
+  headers: {
+    'Content-Type': 'application/json',
+  },
   credentials: 'include' as RequestCredentials,
 });
 
