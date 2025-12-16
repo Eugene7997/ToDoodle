@@ -1,20 +1,16 @@
 # ToDoodle
-For now the most basic To Do App we can possibly do.
+Just your usual To Do App.
 
 <img src="./docs/assets/meme.gif" width="300" />
 
 
 # Project Overview
 
-<img src="./docs/assets/todoodle_logo.png" width="150" />
-
 A simple, intuitive todo application to help users organize and track their daily tasks efficiently.  
 
-## WIP demo  
+## Short demo  
 
-<img src="./docs/assets/intro_page_demo.gif" width="600" />
-
-Download the full demo here, [WIP_demo](./docs/assets/WIP_demo.mp4).
+https://github.com/user-attachments/assets/05e81068-cc22-4d95-8562-123fdc1b91d1
 
 ## Development plan
 
@@ -40,7 +36,7 @@ Download the full demo here, [WIP_demo](./docs/assets/WIP_demo.mp4).
 - [x] Add OpenAPI specification for backend (Swagger UI).
 - [ ] Add GitHub Actions CI/CD.
 - [ ] Implement proper GitHub flow once CI/CD and deployment to prod is up.
-- [ ] Deploy to AWS cloud. Monolithic EC2 for now.
+- [ ] ~~Deploy to AWS cloud. Monolithic EC2 for now.~~
 
 ## Getting started
 
